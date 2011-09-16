@@ -32,6 +32,8 @@ group :development do
   gem 'sqlite3'
 end
 
+gem 'execjs'
+
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
