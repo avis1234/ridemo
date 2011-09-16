@@ -15,7 +15,7 @@ Ridemo::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = true
+  config.assets.compile = false
 
   # Generate digests for assets URLs
   config.assets.digest = true
@@ -44,8 +44,8 @@ Ridemo::Application.configure do
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
   # config.assets.precompile += %w( search.js )
-  config.assets.precompile += %w(*.gif *.js  *.png *.jpg *.css.erb *.css)
-  config.assets.precompile = [/^[^_]/] #precompile everything except partials
+  # config.assets.precompile += %w(*.gif *.js  *.png *.jpg *.css.erb *.css)
+  # config.assets.precompile = [/^[^_]/] #precompile everything except partials
 
 
   # Disable delivery errors, bad email addresses will be ignored
