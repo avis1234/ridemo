@@ -1,4 +1,6 @@
 Ridemo::Application.routes.draw do
+  get "tom/index"
+
   #  get "welcome/index"
 
   # The priority is based upon order of creation:
@@ -52,7 +54,8 @@ Ridemo::Application.routes.draw do
   # just remember to delete public/index.html.
 
   match "/avi" => 'welcome#index'
-  root :to => 'welcome#index'
+  match "/tom" => 'tom#index'
+  # root :to => 'welcome#index'
 
   # See how all your routes lay out with "rake routes"
 
