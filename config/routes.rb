@@ -54,6 +54,7 @@ Ridemo::Application.routes.draw do
   # just remember to delete public/index.html.
 
   match "/tom" => 'tom#index'
+  resources :avi
   root :to => 'welcome#index'
 
   # See how all your routes lay out with "rake routes"
