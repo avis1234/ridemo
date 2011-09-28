@@ -6,10 +6,10 @@ class WelcomeController < ApplicationController
 
 end
 
-# todo read about css js and jquery
-# todo see cloudera
+# todo read about html, css, js, jquery, db & access
 # todo see lecture at http://ontwik.com/rails/obie-fernandez-mastering-the-art-of-application-development/
 # todo program first version of welcome page
-# todo design controllers, models and views for 1st application
+# todo add an element of Ajax as well
+#todo design controllers, models and views for 1st application
 # todo add BDD scripts for testing first
 # todo develop FunTale first book for Alma
